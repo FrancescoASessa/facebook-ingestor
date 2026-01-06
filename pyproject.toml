@@ -1,0 +1,26 @@
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["app"]
+omit = [
+    "tests/*",
+    "app/orchestrator.py",
+    "app/main.py"
+]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90

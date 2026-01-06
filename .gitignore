@@ -1,0 +1,48 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+venv/
+ENV/
+
+# -----------------------
+# Browser / automation
+# -----------------------
+chrome-profile*/
+playwright/.cache/
+nodriver/.cache/
+
+# -----------------------
+# Application output
+# -----------------------
+data/
+!data/.gitkeep
+*.json
+
+# -----------------------
+# OS / IDE
+# -----------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# -----------------------
+# Logs
+# -----------------------
+*.log

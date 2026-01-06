@@ -1,0 +1,8 @@
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
+
+[MESSAGES CONTROL]
+disable=
+    too-few-public-methods,
+    broad-exception-caught
+
